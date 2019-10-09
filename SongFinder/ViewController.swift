@@ -79,7 +79,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         do {
              tableSong.reloadData()
-            let url = NSURL(string: "https://www.lyrics.com/lyrics/" + lyric)
+            let url = NSURL(string: "url" + lyric)
             
             if url == nil {
                 lblWarning.text = "Search only by words please!"
